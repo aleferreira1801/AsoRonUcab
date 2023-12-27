@@ -4,7 +4,6 @@ import Footer from "./Components/Footer";
 
 import Home from "./pages/Home";
 import Registrar from "./pages/Registrar";
-import About from "./pages/About";
 import login from "./pages/login";
 import Tienda from "./pages/Tienda";
 import Compra from "./pages/Compra";
@@ -21,6 +20,16 @@ import DetalleEvento from "./Components/DetalleEvento";
 import EntradaEvento from "./pages/EntradaEvento";
 import Venta from "./pages/Venta";
 import DetalleSantaTeresaBlanco from "./pages/DetalleSantaTeresaBlanco";
+import Pedido from "./pages/Pedido";
+import EstadoPedido from "./pages/EstadoPedido";
+import DetallePedido from "./pages/DetallePedido";
+import CuotaAfiliacion from "./pages/CuotaAfiliacion";
+import Premio from "./pages/Premio";
+import PagoEntrada from "./pages/PagoEntrada";
+import AgregarEvento from "./pages/AgregarEvento";
+import Beneficio from "./pages/Beneficio";
+
+
 
 
 function App() {
@@ -47,6 +56,16 @@ function App() {
           <Route exact path="/EntradaEvento" Component={EntradaEvento}/>
           <Route exact path="/Venta" Component={Venta}/>
           <Route exact path="/DetalleSantaTeresa" Component={DetalleSantaTeresaBlanco}/>
+          <Route exact path="/Pedido" Component={Pedido}/>
+          <Route exact path="/EstadoPedido" Component={EstadoPedido}/>
+          <Route exact path="/DetallePedido" Component={DetallePedido}/>
+          <Route exact path="/CuotaAfiliacion" Component={CuotaAfiliacion}/>
+          <Route exact path="/Premio" Component={Premio}/>
+          <Route exact path="/PagoEntrada" Component={PagoEntrada}/>
+          <Route exact path="/AgregarEvento" Component={AgregarEvento}/>
+          <Route exact path="/Beneficio" Component={Beneficio}/>
+          
+       
         </Routes>
         <Footer/>
     </Router>

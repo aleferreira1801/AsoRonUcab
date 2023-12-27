@@ -1,11 +1,14 @@
 import React from "react";
-import FormVenta from "../Components/FormVenta";
 import ListVenta from "../Components/ListVenta";
+import FormVenta from "../Components/FormVenta";
 
  function Venta() {   
     return (
         <div >
+       
+    
        <FormVenta/>
+         
        <ListVenta/>
         
        

@@ -10,55 +10,31 @@ function FormProveedor() {
         <form>
   <div class="row">
     <div class="col">
-      <input type="text" class="form-control" placeholder="Nombre"/>
+    <h6>Nombre</h6>
+      <input type="text" class="form-control" />
     </div>
     <div class="col">
-      <input type="text" class="form-control" placeholder="Razon Social"/>
+    <h6>Denominacion  Comercial </h6>
+      <input type="text" class="form-control" />
     </div>
     <div class="col">
-    <input type="text" class="form-control" placeholder="Denominacion Comercial"/>
+    <h6>Afiliacion Proveedor</h6>
+    <input type="text" class="form-control" />
   </div>
-  </div>
-</form>
-<form>
-<div class="row">
-  <div class="col">
-    <input type="text" class="form-control" placeholder="Documentacion RIF"/>
-  </div>
-  <div class="col">
-    <input type="text" class="form-control" placeholder="Direccion Fiscal"/>
-  </div>
-  <div class="col">
-  <input type="text" class="form-control" placeholder="Pagina WEB"/>
-</div>
-</div>
-</form>
-<form>
-<div class="row">
-  <div class="col">
-  <input type="text" class="form-control" placeholder="Direccion Fisica"/>
-</div>
 <div class="col">
-  <select id="inputState" class="form-control">
-  <option selected>Tipo De Ron</option>
-  <option>...</option>
+<h6> Persona Juridica</h6>
+<select id="inputState" class="form-control">
+<option selected></option>
+<option>Festival De Ron Caracas</option>
+<option>Curiosidades Del Ron</option>
 </select>
-  </div>
 </div>
-</form>
+</div>
+  
 
-<form>
-<div class="row">
-  <div class="col">
-    <input type="text" class="form-control" placeholder="Telefono de Contacto"/>
-  </div>
-  <div class="col">
-    <input type="text" class="form-control" placeholder="Personal Contacto"/>
-  </div>
-  <div class="col">
-  <input type="email" class="form-control" id="inputEmail4" placeholder="Email"/>
-  </div>
-</div>
+
+
+
 
 
 <div class="col-12 text-center">

@@ -1,7 +1,7 @@
 import React from "react";
-
-
 import "../Styles/login.css";
+
+import {Link} from 'react-router-dom'
 
 function Registrar() {
   return (
@@ -56,7 +56,10 @@ function Registrar() {
           </div>
         </div>
         <div class="col-12">
-        <button type="button"  class="btn btn-dark" >Continuar</button>
+             <Link to='/HomeRegistro'>
+              <button type="button"  class="btn btn-dark rounded-pill  " >Aceptar</button>
+              </Link>
+             
         </div>
       </form>
       </div>

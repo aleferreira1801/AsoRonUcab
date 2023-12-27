@@ -13,16 +13,14 @@ function ListEmpleado() {
         <thead>
           <tr>
             <th scope="col">#</th>
-            <th scope="col"> Usuario </th>
-            <th scope="col"> Contraseña</th>
-            <th scope="col">Fecha Registrado</th>
-            <th scope="col"> Imagen</th>
-            <th scope="col">Numero Usuario</th>
-            <th scope="col">Profesion</th>
-            <th scope="col">Fecha Inicio Trabajo</th>
-            <th scope="col">Titulo Puesto Empleado</th>
-            <th scope="col">Fecha Inicio Turno</th>
-            <th scope="col">Fecha Fin Turno</th>
+            <th scope="col"> Profesion </th>
+            <th scope="col"> Titulo Puesto Empleado</th>
+            <th scope="col"> Feha Hora Inicio Turno</th>
+            <th scope="col"> Fecha Hora Fin Turno</th>
+            <th scope="col"> Supervisor</th>
+            <th scope="col">Persona Natural</th>
+            <th scope="col">Punto De Venta</th>
+           
           </tr>
         </thead>
         <tbody>
@@ -31,40 +29,35 @@ function ListEmpleado() {
             <td> Mark</td>
             <td>Otto</td>
             <td>@mdo</td> 
-            <td><img src='https://static.vecteezy.com/system/resources/previews/005/005/840/non_2x/user-icon-in-trendy-flat-style-isolated-on-grey-background-user-symbol-for-your-web-site-design-logo-app-ui-illustration-eps10-free-vector.jpg'   alt="" width="50px" height="50px"   /></td>
-            <td>Otto</td>
             <td>@mdo</td>
             <td>Mark</td>
             <td>Otto</td>
-            <td>@mdo</td>
             <td>Mark</td>
+            
           </tr>
           <tr>
             <th scope="row">2</th>
             <td>Jacob</td>
             <td>Thornton</td>
             <td>@fat</td>
-            <td><img src='https://static.vecteezy.com/system/resources/previews/005/005/840/non_2x/user-icon-in-trendy-flat-style-isolated-on-grey-background-user-symbol-for-your-web-site-design-logo-app-ui-illustration-eps10-free-vector.jpg'   alt="" width="50px" height="50px"   /></td>
+           
             <td>Otto</td>
             <td>@mdo</td>
             <td>Mark</td>
             <td>Otto</td>
-            <td>@mdo</td>
-            <td>Mark</td>
+           
           </tr>
           <tr>
             <th scope="row">3</th>
             <td>Larry</td>
             <td>the Bird</td>
             <td>@twitter</td>
-            <td><img src='https://static.vecteezy.com/system/resources/previews/005/005/840/non_2x/user-icon-in-trendy-flat-style-isolated-on-grey-background-user-symbol-for-your-web-site-design-logo-app-ui-illustration-eps10-free-vector.jpg'   alt="" width="50px" height="50px"   /></td>
+            
             <td>Otto</td>
             <td>@mdo</td>
             <td>Mark</td>
             <td>Otto</td>
-            <td>@mdo</td>
-            <td>Mark</td>
-    
+         
           </tr>
         </tbody>
       </table>

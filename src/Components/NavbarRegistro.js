@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import '../Styles/Navbar.css'
 import ReorderIcon from "@material-ui/icons/Reorder";
 
-function Navbar() {
+function NavbarRegistro() {
   
   const [openLinks, setOpenLinks] = useState(false);
 
@@ -20,27 +20,19 @@ function Navbar() {
 
         <div className="hiddenLinks">
           <Link to="/Tienda"> Catalogo </Link>
-          <Link to="/Empleado"> Empleado </Link>
+         
           <Link to="/Compra"> compra </Link>
           <Link to="/Evento"> Eventos </Link>
           <Link to="/Contacto"> Contacto </Link>
-          <Link to="/Proveedor"> Proveedor </Link>
-          <Link to="/Departamento"> Departamento </Link>
-          <Link to="/Cliente"> cliente</Link>
-          <Link to="/ProveedorAfiliado"> ProveedorAfiliado</Link>
-          <Link to="/modalRegistrar"> modalRegistrar</Link>
+          
         
         </div>
       </div>
       <div className="rightSide">
-        <Link to="/Empleado"> Empleado </Link>
         <Link to="/Evento"> Eventos </Link>
         <Link to="/Contacto"> Contacto </Link>
-        <Link to="/Proveedor"> Proveedor </Link>
-        <Link to="/Cliente"> Cliente </Link>
-        <Link to="/ProveedorAfiliado"> ProveedorAfiliado</Link>
-        <Link to="/Departamento"> Departamento</Link>
-        <Link to="/modalRegistrar"> modalRegistrar</Link>
+        <Link to="/Tienda"> Catalogo </Link>
+        
         
        
 
@@ -52,4 +44,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default NavbarRegistro;

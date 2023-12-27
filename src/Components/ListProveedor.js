@@ -14,16 +14,10 @@ function ListProveedor() {
           <tr>
             <th scope="col">#</th>
             <th scope="col"> Nombre</th>
-            <th scope="col"> Razon Social</th>
-            <th scope="col">Denominacion Comercial</th>
-            <th scope="col">RIF</th>
-            <th scope="col">Direccion Fiscal</th>
-            <th scope="col">Pagina WEB</th>
-            <th scope="col">Direccion Fisica</th>
-            <th scope="col">Tipo Ron</th>
-            <th scope="col">Telefono Contacto</th>
-            <th scope="col">Personal Contacto</th>
-            <th scope="col">Email</th>
+            <th scope="col"> Denominacion Comercial</th>
+            <th scope="col"> Afiliacion</th>
+            <th scope="col"> Persona Juridica</th>
+            
           </tr>
         </thead>
         <tbody>
@@ -33,13 +27,7 @@ function ListProveedor() {
             <td>Otto</td>
             <td>@mdo</td>
             <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>Mark</td>
-            <td>Otto</td>
+            
           </tr>
           <tr>
             <th scope="row">2</th>
@@ -47,13 +35,7 @@ function ListProveedor() {
             <td>Thornton</td>
             <td>@fat</td>
             <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>Mark</td>
-            <td>Otto</td>
+            
           </tr>
           <tr>
             <th scope="row">3</th>
@@ -61,13 +43,7 @@ function ListProveedor() {
             <td>the Bird</td>
             <td>@twitter</td>
             <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>Mark</td>
-            <td>Otto</td>
+            
           </tr>
         </tbody>
       </table>

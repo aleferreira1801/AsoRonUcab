@@ -2,40 +2,52 @@
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 
-function FormVenta() { 
-  const [startDate, setStartDate] = useState(null);  
+
+function FormPedido() {   
+  const [startDate, setStartDate] = useState(null);
     return (
         <div class="container">
 
         <div class="text-center">
-         <h1> Venta </h1>
+         <h1> Pedido</h1>
          </div>
         <form>
   <div class="row">
     <div class="col">
-      <input type="text" class="form-control" placeholder="Numero Factura "/>
-    </div>
-    <div class="col">
+    <h6> Numero</h6>
     <select id="inputState" class="form-control">
-    <option selected>Tienda Online</option>
-    <option> </option>
+    <option selected></option>
+    <option> Fecha Inicio </option>
+    <option> Fecha Fin </option>
   </select>
     </div>
+    
     <div class="col">
+    <h6> Tienda Online</h6>
     <select id="inputState" class="form-control">
-    <option selected>Tienda Fisica</option>
-    <option> Online</option>
+    <option selected></option>
+    <option> Fecha Inicio </option>
+    <option> Fecha Fin </option>
   </select>
     </div>
   <div class="col">
+  <h6> Fecha Realizada </h6>
   <input type="date" class="form-control" value={startDate} />
   </div>
   <div class="col">
-  <input type="text" class="form-control" placeholder=" Total"/>
+  <h6> Fecha Realizada</h6>
+  <input type="date" class="form-control" value={startDate} />
 </div>
+
 <div class="col">
-<input type="text" class="form-control" placeholder=" Punto Ganado"/>
-</div>
+    <h6> Punto De Venta Online</h6>
+    <select id="inputState" class="form-control">
+    <option selected></option>
+    <option> Fecha Inicio </option>
+    <option> Fecha Fin </option>
+  </select>
+    </div>
+
   </div>
   
 
@@ -50,7 +62,8 @@ function FormVenta() {
 
       </form>
       </div>
-        
-    );
+
+);
+
 }
-export default FormVenta;
+export default FormPedido;

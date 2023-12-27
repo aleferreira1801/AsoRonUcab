@@ -16,8 +16,7 @@ function ListDepartamento() {
             <th scope="col"> Numero</th>
             <th scope="col"> Nombre</th>
             <th scope="col">Descripcion</th>
-            <th scope="col">Cantidad</th>
-            <th scope="col">Jefe</th>
+            
             
           </tr>
         </thead>
@@ -27,8 +26,7 @@ function ListDepartamento() {
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
-            <td>Mark</td>
-            <td>Otto</td>
+            
             
           </tr>
           <tr>
@@ -36,8 +34,7 @@ function ListDepartamento() {
             <td>Jacob</td>
             <td>Thornton</td>
             <td>@fat</td>
-            <td>Mark</td>
-            <td>Otto</td>
+            
             
           </tr>
           <tr>
@@ -45,8 +42,7 @@ function ListDepartamento() {
             <td>Larry</td>
             <td>the Bird</td>
             <td>@twitter</td>
-            <td>Mark</td>
-            <td>Otto</td>
+            
             
           </tr>
         </tbody>
