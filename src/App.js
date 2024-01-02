@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 
 import Home from "./pages/Home";
-import Registrar from "./pages/Registrar";
+import Usuario from "./pages/Usuario";
 import login from "./pages/login";
 import Tienda from "./pages/Tienda";
 import Compra from "./pages/Compra";
@@ -53,7 +53,7 @@ function App() {
          
           <Route exact path="/Empleado" Component={Empleado}/>
           <Route exact path="/login" Component={login}/>
-          <Route exact path="/Registrar" Component={Registrar}/>
+          <Route exact path="/Usuario" Component={Usuario}/>
           <Route exact path="/Tienda" Component={Tienda}/>
           <Route exact path="/Compra" Component={Compra}/>
           <Route exact path="/detalle" Component={detalle}/>

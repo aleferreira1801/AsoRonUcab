@@ -56,7 +56,7 @@ function login() {
              <Link to="/Compra"> 
               <button type="button"  class="btn btn-dark text rounded-pill" >Continuar</button>
               </Link>
-              <Link to="/Registrar"> 
+              <Link to="/Usuario"> 
               <button type="button"  class="btn btn-dark rounded-pill  " >Crear Cuenta </button>
               </Link> 
               </div>
