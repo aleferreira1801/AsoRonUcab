@@ -28,6 +28,17 @@ import Premio from "./pages/Premio";
 import PagoEntrada from "./pages/PagoEntrada";
 import AgregarEvento from "./pages/AgregarEvento";
 import Beneficio from "./pages/Beneficio";
+import Anejamiento from "./pages/Anejamiento";
+import TipOrON from "./pages/TipoRon";
+import VariedadRon from "./pages/VariedadRon";
+import Barril from "./pages/Barril";
+import CategoriaIngrediente from "./pages/CategoriaIngrediente";
+import PersonaJuridica from "./pages/PersonaJuridica";
+import ProveedorPartiEvent from "./pages/ProveedorPartiEvent";
+import NotaCata from "./pages/NotaCata";
+
+import PersonaNatural from "./pages/PersonaNatural";
+
 
 
 
@@ -64,7 +75,17 @@ function App() {
           <Route exact path="/PagoEntrada" Component={PagoEntrada}/>
           <Route exact path="/AgregarEvento" Component={AgregarEvento}/>
           <Route exact path="/Beneficio" Component={Beneficio}/>
-          
+          <Route exact path="/Anejamiento" Component={Anejamiento}/>
+          <Route exact path="/TipoRon" Component={TipOrON}/>
+          <Route exact path="/variedadRon" Component={VariedadRon}/>
+          <Route exact path="/Barril" Component={Barril}/>
+          <Route exact path="/CategoriaIngrediente" Component={CategoriaIngrediente }/>
+          <Route exact path="/PersonaJuridica" Component={PersonaJuridica }/>
+          <Route exact path="/ProveedorPartiEvent" Component={ ProveedorPartiEvent}/>
+          <Route exact path="/NotaCata" Component={ NotaCata}/>
+          <Route exact path="/PersonaNatural" Component={ PersonaNatural}/>
+       
+       
        
         </Routes>
         <Footer/>

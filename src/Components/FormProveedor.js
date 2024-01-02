@@ -1,6 +1,6 @@
-import React from 'react'
 
-function FormProveedor() {   
+
+function formproveedor() {   
     return (
         <div class="container">
 
@@ -8,25 +8,25 @@ function FormProveedor() {
          <h1> Proveedor </h1>
          </div>
         <form>
-  <div class="row">
+      <div class="row">
     <div class="col">
-    <h6>Nombre</h6>
+    <h6>nombre</h6>
       <input type="text" class="form-control" />
     </div>
     <div class="col">
-    <h6>Denominacion  Comercial </h6>
+    <h6>denominacion  comercial </h6>
       <input type="text" class="form-control" />
     </div>
     <div class="col">
-    <h6>Afiliacion Proveedor</h6>
+    <h6>afiliacion proveedor</h6>
     <input type="text" class="form-control" />
   </div>
 <div class="col">
-<h6> Persona Juridica</h6>
-<select id="inputState" class="form-control">
+<h6> persona juridica</h6>
+<select id="inputstate" class="form-control">
 <option selected></option>
-<option>Festival De Ron Caracas</option>
-<option>Curiosidades Del Ron</option>
+<option>festival de ron caracas</option>
+<option>curiosidades del ron</option>
 </select>
 </div>
 </div>
@@ -39,7 +39,7 @@ function FormProveedor() {
 
 <div class="col-12 text-center">
         <button type="button"  class="btn btn-dark"  >
-        Aceptar
+        aceptar
        
         </button>
       </div>
@@ -49,4 +49,4 @@ function FormProveedor() {
 );
 
 }
-export default FormProveedor;
+export default formproveedor;
