@@ -38,6 +38,10 @@ import ProveedorPartiEvent from "./pages/ProveedorPartiEvent";
 import NotaCata from "./pages/NotaCata";
 
 import PersonaNatural from "./pages/PersonaNatural";
+import EmpleadoDepartamento from "./pages/EmpleadoDepartamento";
+import BeneficioEmpleado from "./pages/BeneficioEmpleado";
+
+import DetalleVenta from "./pages/DetalleVenta";
 
 
 
@@ -84,6 +88,10 @@ function App() {
           <Route exact path="/ProveedorPartiEvent" Component={ ProveedorPartiEvent}/>
           <Route exact path="/NotaCata" Component={ NotaCata}/>
           <Route exact path="/PersonaNatural" Component={ PersonaNatural}/>
+          <Route exact path="/EmpleadoDepartamento" Component={ EmpleadoDepartamento}/>
+          <Route exact path="/BeneficioEmpleado" Component={BeneficioEmpleado}/>
+          <Route exact path="/DetalleVenta" Component={DetalleVenta}/>
+       
        
        
        
