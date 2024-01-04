@@ -2,7 +2,7 @@ import React from "react";
 import FormDepartamenro from "../Components/FormDepartemento"
 import ListDepartamento from "../Components/ListDepartamento";
 
- function Proveedor() {   
+ function  Departamento() {   
     return (
         <div >
         
@@ -13,4 +13,4 @@ import ListDepartamento from "../Components/ListDepartamento";
         
     );
 }
-export default Proveedor;
+export default Departamento;

@@ -53,6 +53,14 @@ import PuntoDeVenta from "./pages/PuntoDeVenta";
 import PuntoDeVentaTiendaFisica from "./pages/PuntoDeVentaTiendaFisica";
 import Punto from "./pages/Punto";
 import PuntoDeVentaTiendaOnline from "./pages/PuntoDeVentaTiendaOnline";
+import Efectivo from "./pages/Efectivo";
+import TarjetaDebito from "./pages/TarjetaDebito";
+import TarjetaCredito from "./pages/TarjetaCredito";
+import PuntoAfiliado from "./pages/PuntoAfiliado";
+import Cheque from "./pages/Cheque";
+import PagoVenta from "./pages/PagoVenta";
+import DetalleCompra from "./pages/DetalleCompra";
+
 
 
 
@@ -113,6 +121,15 @@ function App() {
           <Route exact path="/PuntoDeVentaTiendaFisica" Component={PuntoDeVentaTiendaFisica}/>
           <Route exact path="/Punto" Component={Punto}/>
           <Route exact path="/PuntoDeVentaTiendaOnline" Component={ PuntoDeVentaTiendaOnline}/>
+          <Route exact path="/Punto" Component={Punto}/>
+          <Route exact path="/Efectivo" Component={ Efectivo}/>
+          <Route exact path="/TarjetaDebito" Component={ TarjetaDebito}/>
+          <Route exact path="/TarjetaCredito" Component={ TarjetaCredito}/>
+          <Route exact path="/PuntoAfiliado" Component={ PuntoAfiliado}/>
+          <Route exact path="/Cheque" Component={ Cheque}/>
+          <Route exact path="/PagoVenta" Component={ PagoVenta}/>
+          <Route exact path="/DetalleCompra" Component={ DetalleCompra}/>
+
 
 
 
