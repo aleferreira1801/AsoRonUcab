@@ -42,6 +42,17 @@ import EmpleadoDepartamento from "./pages/EmpleadoDepartamento";
 import BeneficioEmpleado from "./pages/BeneficioEmpleado";
 
 import DetalleVenta from "./pages/DetalleVenta";
+import Sabor from "./pages/Sabor";
+import Color from "./pages/Color";
+import Ingrendiente from "./pages/Ingrendiente";
+import Metodo from "./pages/Metodo";
+import Destilacion from "./pages/Destilacion";
+import Categoria from "./pages/Categoria";
+import TasaCambio from "./pages/TasaCambio";
+import PuntoDeVenta from "./pages/PuntoDeVenta";
+import PuntoDeVentaTiendaFisica from "./pages/PuntoDeVentaTiendaFisica";
+import Punto from "./pages/Punto";
+import PuntoDeVentaTiendaOnline from "./pages/PuntoDeVentaTiendaOnline";
 
 
 
@@ -91,6 +102,23 @@ function App() {
           <Route exact path="/EmpleadoDepartamento" Component={ EmpleadoDepartamento}/>
           <Route exact path="/BeneficioEmpleado" Component={BeneficioEmpleado}/>
           <Route exact path="/DetalleVenta" Component={DetalleVenta}/>
+          <Route exact path="/Sabor" Component={Sabor}/>
+          <Route exact path="/COlor" Component={Color}/>
+          <Route exact path="/Ingrendiente" Component={Ingrendiente}/>
+          <Route exact path="/Metodo" Component={Metodo}/>
+          <Route exact path="/Destilacion" Component={Destilacion}/>
+          <Route exact path="/Categoria" Component={Categoria}/>
+          <Route exact path="/TasaCambio" Component={TasaCambio}/>
+          <Route exact path="/PuntoDeVenta" Component={PuntoDeVenta}/>
+          <Route exact path="/PuntoDeVentaTiendaFisica" Component={PuntoDeVentaTiendaFisica}/>
+          <Route exact path="/Punto" Component={Punto}/>
+          <Route exact path="/PuntoDeVentaTiendaOnline" Component={ PuntoDeVentaTiendaOnline}/>
+
+
+
+
+       
+       
        
        
        

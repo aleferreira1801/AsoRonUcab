@@ -22,9 +22,7 @@ function FormPersonaNatural() {
           </div>
           <div class="col-md-4">
             <label style={{ fontWeight: "bold" }}>Segundo Nombre</label>
-            <select class="form-control" id="fk_id_anejamiento" name="fk_id_anejamiento">
-              <option value="">Seleccione una pagina</option>
-            </select>
+            <input type="text" class="form-control"  />
           </div>
             <div class="col-md-4">
             <label style={{ fontWeight: "bold" }}>Primer Apellido</label>
